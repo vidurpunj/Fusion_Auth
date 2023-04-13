@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  preferred_username: MyString
+  aud: MyString
+  exp: MyString
+  iat: MyString
+  iss: MyString
+  sub: MyString
+  jti: MyString
+  authenticationType: MyString
+  auth_time: MyString
+  tid: MyString
+
+two:
+  email: MyString
+  preferred_username: MyString
+  aud: MyString
+  exp: MyString
+  iat: MyString
+  iss: MyString
+  sub: MyString
+  jti: MyString
+  authenticationType: MyString
+  auth_time: MyString
+  tid: MyString

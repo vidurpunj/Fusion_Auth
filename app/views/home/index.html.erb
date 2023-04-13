@@ -1,0 +1,19 @@
+<%#= @fusion_response %>
+
+-------------------------------------
+
+<br>
+<%#= @error_fusion_response %>
+
+<% if current_user %>
+  <p>
+    you are signed in as
+    <%= @user&.email %>
+  </p>
+  <p>
+    <%= link_to 'logout', controller: 'o_auth', action: 'logout' %>
+  </p>
+<% else %>
+  <p>Welcome! Please <%= link_to 'sign in', controller: 'o_auth', action: :login %> </p>
+<% end %>
+
